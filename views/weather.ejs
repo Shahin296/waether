@@ -1,0 +1,11 @@
+<%- include("header"); -%> 
+<div class="temparature">
+<h2> <%= temp %> Degree Celsius in  <%= cityName  %>  </2> 
+<h3 style="color: rgb(226, 201, 154);">Description: <%= icon %> </h3>
+</div>
+  <div class="back-route">
+  <form action="/weather" method="POST">
+    <button submit>back</button>
+</form>
+</div>
+<%- include("footer"); -%> 
